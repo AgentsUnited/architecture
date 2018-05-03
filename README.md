@@ -1,1 +1,1 @@
-Architecture project and models created with Enterprise Architect 7.5
+Architecture project and models created with Enterprise Architect
