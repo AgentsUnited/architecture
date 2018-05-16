@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("4.3:1", "", "BusinessToSystemMappingModel", "EARoot/EA4/EA3/EA496.htm", "180.png", "17", "0", "", "Use Case diagram0","{EAACB13A-EB8D-4e06-9391-F3AAA82D07FF}");
+tocTab[tocTab.length] = new Array("4.3:2", "", "BusinessToSystemMappingModelWP3", "EARoot/EA4/EA3/EA498.htm", "180.png", "18", "0", "", "Use Case diagram0","{B675DDF5-1FC5-4e11-A500-417DD7EF6346}");
+tocTab[tocTab.length] = new Array("4.3:3", "", "BusinessToSystemMappingModelWP4", "EARoot/EA4/EA3/EA500.htm", "180.png", "19", "0", "", "Use Case diagram0","{904CCFF0-F7E0-4532-9EBF-A81ECF6F81D2}");
+tocTab[tocTab.length] = new Array("4.3:4", "", "BusinessToSystemMappingModelWP5", "EARoot/EA4/EA3/EA502.htm", "180.png", "20", "0", "", "Use Case diagram0","{90788472-4AA3-4d1d-A8CB-02226FA25E70}");

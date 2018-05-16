@@ -1,3 +1,3 @@
 tocTab[tocTab.length] = new Array("4.1", "1", "1-BusinessAspectModel", "EARoot/EA4/EA276.htm", "4.png", "", "", "{B495A593-C48D-4f54-89B9-3B7FBEB329FB}", "Package");
-tocTab[tocTab.length] = new Array("4.2", "", "2-EnvironmentSystemsModel", "EARoot/EA4/EA277.htm", "4.png", "", "", "{4E4F5FB0-21D3-460e-B29C-160AA68B64A0}", "Package");
-tocTab[tocTab.length] = new Array("4.3", "", "3-BusinessToSystemMappingModel", "EARoot/EA4/EA278.htm", "4.png", "", "", "{1644F20A-16A2-4d1c-9859-AF6F3670E5AA}", "Package");
+tocTab[tocTab.length] = new Array("4.2", "1", "2-EnvironmentSystemsModel", "EARoot/EA4/EA277.htm", "4.png", "", "", "{4E4F5FB0-21D3-460e-B29C-160AA68B64A0}", "Package");
+tocTab[tocTab.length] = new Array("4.3", "1", "3-BusinessToSystemMappingModel", "EARoot/EA4/EA278.htm", "4.png", "", "", "{1644F20A-16A2-4d1c-9859-AF6F3670E5AA}", "Package");

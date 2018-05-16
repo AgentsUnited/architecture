@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("6.1", "", "1-SystemInformationModel", "EARoot/EA6/EA494.htm", "4.png", "", "", "{9C175733-97B4-473b-AF75-CD28D214E092}", "Package");
-tocTab[tocTab.length] = new Array("6.2", "", "2-SystemDecompositionModel", "EARoot/EA6/EA495.htm", "4.png", "", "", "{F2CC7441-CBAB-4464-A2ED-98C24A8A610D}", "Package");
-tocTab[tocTab.length] = new Array("6.3", "", "3-SystemCollaborationModel", "EARoot/EA6/EA496.htm", "4.png", "", "", "{F756CD00-9127-4d6a-9152-FBB5933F393F}", "Package");
-tocTab[tocTab.length] = new Array("6.4", "", "4-ComponentAndInterfaceSpecModel", "EARoot/EA6/EA497.htm", "4.png", "", "", "{B55BA9E3-3CD1-47e7-B6AF-5C6DE48DE24E}", "Package");
+tocTab[tocTab.length] = new Array("6.1", "1", "1-SystemInformationModel", "EARoot/EA6/EA506.htm", "4.png", "", "", "{9C175733-97B4-473b-AF75-CD28D214E092}", "Package");
+tocTab[tocTab.length] = new Array("6.2", "1", "2-SystemDecompositionModel", "EARoot/EA6/EA507.htm", "4.png", "", "", "{F2CC7441-CBAB-4464-A2ED-98C24A8A610D}", "Package");
+tocTab[tocTab.length] = new Array("6.3", "", "3-SystemCollaborationModel", "EARoot/EA6/EA508.htm", "4.png", "", "", "{F756CD00-9127-4d6a-9152-FBB5933F393F}", "Package");
+tocTab[tocTab.length] = new Array("6.4", "1", "4-ComponentAndInterfaceSpecModel", "EARoot/EA6/EA509.htm", "4.png", "", "", "{B55BA9E3-3CD1-47e7-B6AF-5C6DE48DE24E}", "Package");
