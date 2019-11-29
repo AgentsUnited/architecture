@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>1-SystemInformationModel::CoachingAction</title>
+<title>1-SystemInformationModel::LocutionRule</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {
@@ -16,15 +16,15 @@ function initPage(src) {
 <body onload="initPage(this);" class="Content">
 <div class="pageHeader"></div>
 <div class="PageBody">
-	<span class="ObjectTitle">CoachingAction  : public   class</span>
+	<span class="ObjectTitle">LocutionRule  : public   class</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">08/01/2019 12:44:25</td>
+			<td width="85%" class="ObjectDetailsValue">08/01/2019 13:47:35</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">08/01/2019 12:45:24</td>
+			<td class="ObjectDetailsValue">08/01/2019 13:48:06</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -57,68 +57,32 @@ function initPage(src) {
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{8341DB2C-ED94-4c99-B0BA-E0964011656E}</td>
+			<td class="ObjectDetailsValue">{54C884D5-D6AB-4284-98A6-837F44584140}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA674.htm">DataModel</a></td>
+			<td class="ObjectDetailsValue"><a href="EA661.htm">DataModel</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">&lt;p&gt;A coaching action is a very specific and concrete action that a coach can take in coaching a user. For example, in our example, possible coaching actions to fill in the coaching strategy could be to: ? Explain the user the facts. ? Tell a personalised story. ? Ascertain the user&#39;s knowledge on heart disease.&lt;br/&gt;&lt;/p&gt;&lt;p&gt;Such coaching actions are relevant for single-coach scenarios as well as for the multiple coach scenario that is adopted in the Council of Coaches project. In Council of Coaches, specific coaching actions may be directed towards other coaches, if that is determined (or expected) to be a sound strategy, e.g.: Explain to another coach, who coincidentally has asked for more explanation, why it is important for the user.&lt;br/&gt;&lt;/p&gt;&lt;p&gt;Finally, a coaching action is of itself more than a single &quot;statement&quot; and can consist of multiple dialogue actions&lt;br/&gt;&lt;/p&gt;</div>
+	<div class="ObjectDetailsNotes">&lt;p&gt;The types of moves that participants can perform are defined by the locution rules. Individual locutions are composed of two elements: the illocutionary force; and the propositional content, which are represented by a function of the type IllocForce(content(, content)).&lt;br/&gt;&lt;/p&gt;&lt;p&gt;The illocutionary force defines the type of move that is being made ? for instance, Assert, Question, Argue, Propose etc. The propositional content is the substantive content of what the participant is saying&lt;br/&gt;&lt;/p&gt;&lt;p&gt;in that particular move&lt;br/&gt;&lt;/p&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
-			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
+			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
-		<div class="ItemBody" id="AssociationsToTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+		<div class="ItemBody" id="LinksTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
-					<td width="20%" class="TableHeading">Element</td>
-					<td width="25%" class="TableHeading">Source Role</td>
-					<td width="25%" class="TableHeading">Target Role</td>
-					<td width="30%" class="TableHeading">Details</td>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="15%" class="TableHeading">Type</td>
+					<td width="15%" class="TableHeading">Connection</td>
+					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="20%" class="TableRow" valign="top">
-						<a href="EA685.htm">DialogueAction</a><br />
-						Class &nbsp;
-					</td>
-					<td width="20%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;
-					</td>
-					<td width="20%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;	
-					</td>
-					<td width="30%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-
-			</table>
-		</div>
-		<div class="ItemBody" id="AssociationsFromTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-				<tr>
-					<td width="20%" class="TableHeading">Element</td>
-					<td width="25%" class="TableHeading">Source Role</td>
-					<td width="25%" class="TableHeading">Target Role</td>
-					<td width="30%" class="TableHeading">Details</td>
-				</tr>
-				<tr>
-					<td width="20%" class="TableRow" valign="top">
-						<a href="EA681.htm">CoachingStrategy</a><br />
-						Class &nbsp;
-					</td>
-					<td width="20%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;
-					</td>
-					<td width="20%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;	
-					</td>
-					<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA673.htm">DialogueRule</a></td>
+					<td width="15%" class="TableRow" valign="top">Class</td>
+					<td width="15%" class="TableRow" valign="top">Generalization</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 
 			</table>
