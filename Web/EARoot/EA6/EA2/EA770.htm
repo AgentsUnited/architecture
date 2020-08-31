@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Goal-Setting Module</title>
+<title>2-SystemDecompositionModel::Social Signal Processing</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {
@@ -16,15 +16,15 @@ function initPage(src) {
 <body onload="initPage(this);" class="Content">
 <div class="pageHeader"></div>
 <div class="PageBody">
-	<span class="ObjectTitle">Goal-Setting Module  : public   part</span>
+	<span class="ObjectTitle">Social Signal Processing  (SSP) : public   component</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">27/11/2019 12:21:24</td>
+			<td width="85%" class="ObjectDetailsValue">16/05/2018 13:36:22</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">27/11/2019 12:21:45</td>
+			<td class="ObjectDetailsValue">16/05/2018 16:31:15</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -57,19 +57,61 @@ function initPage(src) {
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{F5C4E506-86D0-4bbe-B313-40329B9284AE}</td>
+			<td class="ObjectDetailsValue">{5B1DF6B5-4AC9-46f8-B123-9B4E7B244E4D}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA707.htm">CompositeKB</a></td>
+			<td class="ObjectDetailsValue"><a href="EA695.htm">ComponentModel</a>, <a href="../../EA4/EA3/EA487.htm">BusinessToSystemMappingModelWP4</a>, <a href="../../EA5/EA1/EA493.htm">RequirementModel</a>, <a href="../EA3/EA784.htm">SystemCollaborationModel</a>, <a href="EA697.htm">ComponentModelAlt</a>, <a href="../EA3/EA786.htm">SystemCollaborationModelAlt</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">&lt;p&gt;a process that periodically sets a personalized step goal for each user based on historical physical activity data&lt;br/&gt;&lt;/p&gt;</div>
-
+	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('MessagesTo');" id="MessagesToTitle">Messages To</li>
+			<li onClick="parent.toggleItem('MessagesFrom');" id="MessagesFromTitle">Messages From</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Custom Properties</li>
+			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
+		<div class="ItemBody" id="MessagesToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Message</td>
+					<td width="40%" class="TableHeading">Details</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA769.htm">Knowledge Base</a></td>
+					<td width="30%" class="TableRow" valign="top">store(SocialSignalProcessingData)</td>
+					<td width="40%" class="TableRow" valign="top"><strong>Type:</strong> Sequence<br />Synchronous Call</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA769.htm">Knowledge Base</a></td>
+					<td width="30%" class="TableRow" valign="top">store(SocialSignalProcessingData)</td>
+					<td width="40%" class="TableRow" valign="top"><strong>Type:</strong> Sequence<br />Synchronous Call</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="MessagesFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Message</td>
+					<td width="40%" class="TableHeading">Details</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA4/EA2/EA481.htm">Sensor Framework</a></td>
+					<td width="30%" class="TableRow" valign="top">send</td>
+					<td width="40%" class="TableRow" valign="top"><strong>Type:</strong> Sequence<br />Synchronous Call</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA4/EA2/EA481.htm">Sensor Framework</a></td>
+					<td width="30%" class="TableRow" valign="top">send</td>
+					<td width="40%" class="TableRow" valign="top"><strong>Type:</strong> Sequence<br />Synchronous Call</td>
+				</tr>
+
+			</table>
+		</div>
 		<div class="ItemBody" id="CustomPropertiesTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
@@ -77,13 +119,48 @@ function initPage(src) {
 					<td width="70%" class="TableHeading">Value</td>
 				</tr>
 			<tr>
-				<td width="30%" class="TableRow">isReference:</td>
-				<td width="70%" class="TableRow">False</td>
+				<td width="30%" class="TableRow">isIndirectlyInstantiated:</td>
+				<td width="70%" class="TableRow">true</td>
 			</tr>
 
 
 			</table>
-		</div>	</div>
+		</div>		<div class="ItemBody" id="LinksTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="15%" class="TableHeading">Type</td>
+					<td width="15%" class="TableHeading">Connection</td>
+					<td width="40%" class="TableHeading">Notes</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA4/EA2/EA481.htm">Sensor Framework</a></td>
+					<td width="15%" class="TableRow" valign="top">Component</td>
+					<td width="15%" class="TableRow" valign="top">Information Flow</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA4/EA1/EA3/EA463.htm">CV.UC.16 Extract features from raw sensory data</a></td>
+					<td width="15%" class="TableRow" valign="top">UseCase</td>
+					<td width="15%" class="TableRow" valign="top">Realisation</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA4/EA1/EA3/EA460.htm">CV.UC.13 Authorise user’s device for gaining access to the platform</a></td>
+					<td width="15%" class="TableRow" valign="top">UseCase</td>
+					<td width="15%" class="TableRow" valign="top">Realisation</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA5/EA1/EA499.htm">WP3</a></td>
+					<td width="15%" class="TableRow" valign="top">Boundary</td>
+					<td width="15%" class="TableRow" valign="top">Realisation</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
 <div class="pageFooter"></div>
  
 </body>

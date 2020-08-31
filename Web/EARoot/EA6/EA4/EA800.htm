@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>4-ComponentAndInterfaceSpecModel::DAFInterface</title>
+<title>4-ComponentAndInterfaceSpecModel::IntentPlannerFeedbackInterface</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {
@@ -16,15 +16,15 @@ function initPage(src) {
 <body onload="initPage(this);" class="Content">
 <div class="pageHeader"></div>
 <div class="PageBody">
-	<span class="ObjectTitle">DAFInterface  (DAF_IF) : public abstract  &lt;&lt;interface&gt;&gt; interface</span>
+	<span class="ObjectTitle">IntentPlannerFeedbackInterface  (IPf_IF) : public abstract  &lt;&lt;interface&gt;&gt; interface</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">16/05/2018 13:22:01</td>
+			<td width="85%" class="ObjectDetailsValue">16/05/2018 13:26:52</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">27/11/2019 13:06:51</td>
+			<td class="ObjectDetailsValue">17/05/2018 18:02:54</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -57,11 +57,11 @@ function initPage(src) {
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{3B7023D9-C47F-44e6-A371-F99E807242CC}</td>
+			<td class="ObjectDetailsValue">{4373780C-A10F-46e6-95CC-3534208A6A41}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA781.htm">InterfaceModel</a></td>
+			<td class="ObjectDetailsValue"></td>
 		</tr>
 	</table>
 	
@@ -79,115 +79,27 @@ function initPage(src) {
 						<tr>
 				<td width="40%" class="TableRow">
 					<i>public</i><br />
-					<strong>addParticipant</strong>(<br />
-					<a href="#" onclick="parent.toggleData('param{FDF278B8-11A5-4767-9A72-E409AA688482}')" style="text-decoration: none; color: #000000;"><img src="../../../images/plus03.gif" align="absmiddle" id="param{FDF278B8-11A5-4767-9A72-E409AA688482}" border="0" />participant: <a href="../EA1/EA681.htm">Pariticipant</a></a>, 
+					<strong>feedback</strong>(<br />
+					<a href="#" onclick="parent.toggleData('param{488F93AB-2560-4bcc-8B46-1A3F83591834}')" style="text-decoration: none; color: #000000;"><img src="../../../images/plus03.gif" align="absmiddle" id="param{488F93AB-2560-4bcc-8B46-1A3F83591834}" border="0" />bml: <a href="../EA1/EA664.htm">Behaviour</a></a>, 
 					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
-						<tr id="param{FDF278B8-11A5-4767-9A72-E409AA688482}00" style="display: none;">
+						<tr id="param{488F93AB-2560-4bcc-8B46-1A3F83591834}00" style="display: none;">
 							<td width="50"><strong>Default:</strong></td>
 							<td></td>
 						</tr>
-						<tr id="param{FDF278B8-11A5-4767-9A72-E409AA688482}01" style="display: none;">
+						<tr id="param{488F93AB-2560-4bcc-8B46-1A3F83591834}01" style="display: none;">
 							<td width="50"><strong>Kind:</strong></td>
 							<td>in</td>
 						</tr>
-						<tr id="param{FDF278B8-11A5-4767-9A72-E409AA688482}02" style="display: none;">
+						<tr id="param{488F93AB-2560-4bcc-8B46-1A3F83591834}02" style="display: none;">
 							<td width="50"><strong>Stereotype: </strong></td>
 							<td></td>
 						</tr>
-						<tr id="param{FDF278B8-11A5-4767-9A72-E409AA688482}03" style="display: none;">
+						<tr id="param{488F93AB-2560-4bcc-8B46-1A3F83591834}03" style="display: none;">
 							<td width="50"></td>
 							<td></td>
 						</tr>
 					</table>
 ):void
-				</td>
-				<td width="60%" class="TableRow">
-					<i>Sequential  </i>
-					<table>
-						<tr>
-							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
-							<td></td>
-						</tr>
-					</table>
-					
-				</td>
-			</tr>
-			<tr>
-				<td width="40%" class="TableRow">
-					<i>public</i><br />
-					<strong>createDialogue</strong>(<br />
-					<a href="#" onclick="parent.toggleData('param{8A39A8AB-5238-4e16-967E-717E8AA891B9}')" style="text-decoration: none; color: #000000;"><img src="../../../images/plus03.gif" align="absmiddle" id="param{8A39A8AB-5238-4e16-967E-717E8AA891B9}" border="0" />dialogue: Dialogue</a>, 
-					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
-						<tr id="param{8A39A8AB-5238-4e16-967E-717E8AA891B9}00" style="display: none;">
-							<td width="50"><strong>Default:</strong></td>
-							<td></td>
-						</tr>
-						<tr id="param{8A39A8AB-5238-4e16-967E-717E8AA891B9}01" style="display: none;">
-							<td width="50"><strong>Kind:</strong></td>
-							<td>in</td>
-						</tr>
-						<tr id="param{8A39A8AB-5238-4e16-967E-717E8AA891B9}02" style="display: none;">
-							<td width="50"><strong>Stereotype: </strong></td>
-							<td></td>
-						</tr>
-						<tr id="param{8A39A8AB-5238-4e16-967E-717E8AA891B9}03" style="display: none;">
-							<td width="50"></td>
-							<td></td>
-						</tr>
-					</table>
-):void
-				</td>
-				<td width="60%" class="TableRow">
-					<i>Sequential  </i>
-					<table>
-						<tr>
-							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
-							<td></td>
-						</tr>
-					</table>
-					
-				</td>
-			</tr>
-			<tr>
-				<td width="40%" class="TableRow">
-					<i>public</i><br />
-					<strong>madeMove</strong>(<br />
-					<a href="#" onclick="parent.toggleData('param{1B470F63-CD83-4c60-9E53-6DC404F280C7}')" style="text-decoration: none; color: #000000;"><img src="../../../images/plus03.gif" align="absmiddle" id="param{1B470F63-CD83-4c60-9E53-6DC404F280C7}" border="0" />move: <a href="../EA1/EA679.htm">Move</a></a>, 
-					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
-						<tr id="param{1B470F63-CD83-4c60-9E53-6DC404F280C7}00" style="display: none;">
-							<td width="50"><strong>Default:</strong></td>
-							<td></td>
-						</tr>
-						<tr id="param{1B470F63-CD83-4c60-9E53-6DC404F280C7}01" style="display: none;">
-							<td width="50"><strong>Kind:</strong></td>
-							<td>in</td>
-						</tr>
-						<tr id="param{1B470F63-CD83-4c60-9E53-6DC404F280C7}02" style="display: none;">
-							<td width="50"><strong>Stereotype: </strong></td>
-							<td></td>
-						</tr>
-						<tr id="param{1B470F63-CD83-4c60-9E53-6DC404F280C7}03" style="display: none;">
-							<td width="50"></td>
-							<td></td>
-						</tr>
-					</table>
-):void
-				</td>
-				<td width="60%" class="TableRow">
-					<i>Sequential  </i>
-					<table>
-						<tr>
-							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
-							<td></td>
-						</tr>
-					</table>
-					
-				</td>
-			</tr>
-			<tr>
-				<td width="40%" class="TableRow">
-					<i>public</i><br />
-					<strong>requestMove</strong>():void
 				</td>
 				<td width="60%" class="TableRow">
 					<i>Sequential  </i>
@@ -211,7 +123,7 @@ function initPage(src) {
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA2/EA759.htm">Dialogue and Argumentation Framework</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA2/EA768.htm">Intent Planner</a></td>
 					<td width="15%" class="TableRow" valign="top">Component</td>
 					<td width="15%" class="TableRow" valign="top">Realisation</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>

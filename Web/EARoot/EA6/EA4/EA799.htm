@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>4-ComponentAndInterfaceSpecModel::IntentPlannerFeedbackInterface</title>
+<title>4-ComponentAndInterfaceSpecModel::HBAFInterface</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {
@@ -16,15 +16,15 @@ function initPage(src) {
 <body onload="initPage(this);" class="Content">
 <div class="pageHeader"></div>
 <div class="PageBody">
-	<span class="ObjectTitle">IntentPlannerFeedbackInterface  (IPf_IF) : public abstract  &lt;&lt;interface&gt;&gt; interface</span>
+	<span class="ObjectTitle">HBAFInterface  (HBAF_IF) : public abstract  &lt;&lt;interface&gt;&gt; interface</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">16/05/2018 13:26:52</td>
+			<td width="85%" class="ObjectDetailsValue">16/05/2018 13:19:28</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">17/05/2018 18:02:54</td>
+			<td class="ObjectDetailsValue">27/11/2019 13:06:14</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -57,11 +57,11 @@ function initPage(src) {
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{4373780C-A10F-46e6-95CC-3534208A6A41}</td>
+			<td class="ObjectDetailsValue">{40AB789E-5B5C-45c8-B491-C5C55E0152F9}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"></td>
+			<td class="ObjectDetailsValue"><a href="EA792.htm">InterfaceModel</a></td>
 		</tr>
 	</table>
 	
@@ -79,27 +79,63 @@ function initPage(src) {
 						<tr>
 				<td width="40%" class="TableRow">
 					<i>public</i><br />
-					<strong>feedback</strong>(<br />
-					<a href="#" onclick="parent.toggleData('param{488F93AB-2560-4bcc-8B46-1A3F83591834}')" style="text-decoration: none; color: #000000;"><img src="../../../images/plus03.gif" align="absmiddle" id="param{488F93AB-2560-4bcc-8B46-1A3F83591834}" border="0" />bml: <a href="../EA1/EA664.htm">Behaviour</a></a>, 
+					<strong>retrieve</strong>(<br />
+					<a href="#" onclick="parent.toggleData('param{51A04C15-5E5B-4239-AEC3-FEF80D1D3322}')" style="text-decoration: none; color: #000000;"><img src="../../../images/plus03.gif" align="absmiddle" id="param{51A04C15-5E5B-4239-AEC3-FEF80D1D3322}" border="0" />knowledge: <a href="../EA1/EA683.htm">ProcessedSensorData</a></a>, 
 					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
-						<tr id="param{488F93AB-2560-4bcc-8B46-1A3F83591834}00" style="display: none;">
+						<tr id="param{51A04C15-5E5B-4239-AEC3-FEF80D1D3322}00" style="display: none;">
 							<td width="50"><strong>Default:</strong></td>
 							<td></td>
 						</tr>
-						<tr id="param{488F93AB-2560-4bcc-8B46-1A3F83591834}01" style="display: none;">
+						<tr id="param{51A04C15-5E5B-4239-AEC3-FEF80D1D3322}01" style="display: none;">
 							<td width="50"><strong>Kind:</strong></td>
 							<td>in</td>
 						</tr>
-						<tr id="param{488F93AB-2560-4bcc-8B46-1A3F83591834}02" style="display: none;">
+						<tr id="param{51A04C15-5E5B-4239-AEC3-FEF80D1D3322}02" style="display: none;">
 							<td width="50"><strong>Stereotype: </strong></td>
 							<td></td>
 						</tr>
-						<tr id="param{488F93AB-2560-4bcc-8B46-1A3F83591834}03" style="display: none;">
+						<tr id="param{51A04C15-5E5B-4239-AEC3-FEF80D1D3322}03" style="display: none;">
 							<td width="50"></td>
 							<td></td>
 						</tr>
 					</table>
-):void
+):<a href="../EA1/EA683.htm">ProcessedSensorData</a>
+				</td>
+				<td width="60%" class="TableRow">
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+				</td>
+			</tr>
+			<tr>
+				<td width="40%" class="TableRow">
+					<i>public</i><br />
+					<strong>retrieve</strong>(<br />
+					<a href="#" onclick="parent.toggleData('param{EC6CC42A-4ED8-4afa-A6F9-096A49BD0B4C}')" style="text-decoration: none; color: #000000;"><img src="../../../images/plus03.gif" align="absmiddle" id="param{EC6CC42A-4ED8-4afa-A6F9-096A49BD0B4C}" border="0" />knowledge: <a href="../EA1/EA663.htm">BehaviorChangeDetection</a></a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{EC6CC42A-4ED8-4afa-A6F9-096A49BD0B4C}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{EC6CC42A-4ED8-4afa-A6F9-096A49BD0B4C}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{EC6CC42A-4ED8-4afa-A6F9-096A49BD0B4C}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{EC6CC42A-4ED8-4afa-A6F9-096A49BD0B4C}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):<a href="../EA1/EA663.htm">BehaviorChangeDetection</a>
 				</td>
 				<td width="60%" class="TableRow">
 					<i>Sequential  </i>
@@ -123,7 +159,7 @@ function initPage(src) {
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA2/EA762.htm">Intent Planner</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA2/EA767.htm">Holistic Behaviour Analysis Framework</a></td>
 					<td width="15%" class="TableRow" valign="top">Component</td>
 					<td width="15%" class="TableRow" valign="top">Realisation</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>

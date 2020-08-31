@@ -1,2 +1,6 @@
-tocTab[tocTab.length] = new Array("6.3:1", "", "SystemCollaborationModel", "EARoot/EA6/EA3/EA778.htm", "185.png", "22", "0", "", "Sequence diagram0","{25FFB1A8-1341-4761-8E4D-CB242449965B}");
-tocTab[tocTab.length] = new Array("6.3:2", "", "Dialogue", "EARoot/EA6/EA3/EA780.htm", "101.png", "877", "0", "", "InteractionFragment0","{6F89E54B-BF80-4a24-9EF7-9339E9D76578}");
+tocTab[tocTab.length] = new Array("6.3:1", "", "SystemCollaborationModel", "EARoot/EA6/EA3/EA784.htm", "185.png", "22", "0", "", "Sequence diagram0","{25FFB1A8-1341-4761-8E4D-CB242449965B}");
+tocTab[tocTab.length] = new Array("6.3:2", "", "SystemCollaborationModelAlt", "EARoot/EA6/EA3/EA786.htm", "185.png", "31", "0", "", "Sequence diagram0","{061D9D74-ADFF-4fb4-A991-57D0FA1E124E}");
+tocTab[tocTab.length] = new Array("6.3:3", "", "Dialogue", "EARoot/EA6/EA3/EA788.htm", "101.png", "1071", "0", "", "InteractionFragment0","{E9CDBCC1-A2AB-40a3-8BB8-9780C7286449}");
+tocTab[tocTab.length] = new Array("6.3:4", "", "Dialogue", "EARoot/EA6/EA3/EA789.htm", "101.png", "877", "0", "", "InteractionFragment0","{6F89E54B-BF80-4a24-9EF7-9339E9D76578}");
+tocTab[tocTab.length] = new Array("6.3:5", "", "Init Dialogue", "EARoot/EA6/EA3/EA790.htm", "101.png", "1072", "0", "", "InteractionFragment0","{42173F54-1326-4ea9-864B-A196DE24D2D7}");
+tocTab[tocTab.length] = new Array("6.3:6", "", "Sensing", "EARoot/EA6/EA3/EA791.htm", "101.png", "1073", "0", "", "InteractionFragment0","{BD4FB038-73C3-4595-832C-D52DEA63CB07}");

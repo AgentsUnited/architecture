@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>WOOL DIalogue Framework</title>
+<title>2-SystemDecompositionModel::Intent Planner</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {
@@ -16,15 +16,15 @@ function initPage(src) {
 <body onload="initPage(this);" class="Content">
 <div class="pageHeader"></div>
 <div class="PageBody">
-	<span class="ObjectTitle">WOOL DIalogue Framework  : public   part</span>
+	<span class="ObjectTitle">Intent Planner  (IP) : public   component</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">27/11/2019 12:19:21</td>
+			<td width="85%" class="ObjectDetailsValue">16/05/2018 13:37:43</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">27/11/2019 12:19:38</td>
+			<td class="ObjectDetailsValue">16/05/2018 16:31:12</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -57,20 +57,157 @@ function initPage(src) {
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{C3AC0028-B820-486d-A881-9D2AE3B5BD37}</td>
+			<td class="ObjectDetailsValue">{46FE434D-DA13-467d-9750-41CC60799017}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA707.htm">CompositeKB</a></td>
+			<td class="ObjectDetailsValue"><a href="../EA4/EA792.htm">InterfaceModel</a>, <a href="EA695.htm">ComponentModel</a>, <a href="../../EA4/EA3/EA483.htm">BusinessToSystemMappingModel</a>, <a href="../../EA4/EA3/EA485.htm">BusinessToSystemMappingModelWP3</a>, <a href="../../EA4/EA3/EA489.htm">BusinessToSystemMappingModelWP5</a>, <a href="../../EA5/EA1/EA493.htm">RequirementModel</a>, <a href="../EA3/EA784.htm">SystemCollaborationModel</a>, <a href="EA707.htm">CompositeIP</a>, <a href="EA697.htm">ComponentModelAlt</a>, <a href="../EA3/EA786.htm">SystemCollaborationModelAlt</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">&lt;p&gt;the Java software library that can read/parse .wool scripts (containing the dialogue logic), execute dialogues step-by-step, and inject variables into dialogue steps&lt;br/&gt;&lt;/p&gt;</div>
+	<div class="ObjectDetailsNotes">&lt;p&gt;Flipper&lt;br/&gt;&lt;/p&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('MessagesTo');" id="MessagesToTitle">Messages To</li>
+			<li onClick="parent.toggleItem('MessagesFrom');" id="MessagesFromTitle">Messages From</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Custom Properties</li>
 			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
+		<div class="ItemBody" id="MessagesToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Message</td>
+					<td width="40%" class="TableHeading">Details</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA769.htm">Knowledge Base</a></td>
+					<td width="30%" class="TableRow" valign="top">retrieve(Personality)</td>
+					<td width="40%" class="TableRow" valign="top"><strong>Type:</strong> Sequence<br />Synchronous Call</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA769.htm">Knowledge Base</a></td>
+					<td width="30%" class="TableRow" valign="top">retrieve(SensedConversationCue)</td>
+					<td width="40%" class="TableRow" valign="top"><strong>Type:</strong> Sequence<br />Synchronous Call</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA765.htm">Dialogue and Argumentation Framework</a></td>
+					<td width="30%" class="TableRow" valign="top">createDialogue(Dialogue)</td>
+					<td width="40%" class="TableRow" valign="top"><strong>Type:</strong> Sequence<br />Synchronous Call</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA762.htm">Behaviour Planner</a></td>
+					<td width="30%" class="TableRow" valign="top">plan(Intent)</td>
+					<td width="40%" class="TableRow" valign="top"><strong>Type:</strong> Sequence<br />Synchronous Call</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA765.htm">Dialogue and Argumentation Framework</a></td>
+					<td width="30%" class="TableRow" valign="top">madeMove(Move)</td>
+					<td width="40%" class="TableRow" valign="top"><strong>Type:</strong> Sequence<br />Synchronous Call</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA765.htm">Dialogue and Argumentation Framework</a></td>
+					<td width="30%" class="TableRow" valign="top">addParticipant(Pariticipant)</td>
+					<td width="40%" class="TableRow" valign="top"><strong>Type:</strong> Sequence<br />Synchronous Call</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA765.htm">Dialogue and Argumentation Framework</a></td>
+					<td width="30%" class="TableRow" valign="top">requestMove()</td>
+					<td width="40%" class="TableRow" valign="top"><strong>Type:</strong> Sequence<br />Synchronous Call</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA769.htm">Knowledge Base</a></td>
+					<td width="30%" class="TableRow" valign="top">store(ConversationHistory)</td>
+					<td width="40%" class="TableRow" valign="top"><strong>Type:</strong> Sequence<br />Synchronous Call</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA769.htm">Knowledge Base</a></td>
+					<td width="30%" class="TableRow" valign="top">store(CoachingHistory)</td>
+					<td width="40%" class="TableRow" valign="top"><strong>Type:</strong> Sequence<br />Synchronous Call</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA769.htm">Knowledge Base</a></td>
+					<td width="30%" class="TableRow" valign="top">retrieve(Personality)</td>
+					<td width="40%" class="TableRow" valign="top"><strong>Type:</strong> Sequence<br />Synchronous Call</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA769.htm">Knowledge Base</a></td>
+					<td width="30%" class="TableRow" valign="top">retrieve(SensedConversationCue)</td>
+					<td width="40%" class="TableRow" valign="top"><strong>Type:</strong> Sequence<br />Synchronous Call</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA765.htm">Dialogue and Argumentation Framework</a></td>
+					<td width="30%" class="TableRow" valign="top">createDialogue(Dialogue)</td>
+					<td width="40%" class="TableRow" valign="top"><strong>Type:</strong> Sequence<br />Synchronous Call</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA762.htm">Behaviour Planner</a></td>
+					<td width="30%" class="TableRow" valign="top">plan(Intent)</td>
+					<td width="40%" class="TableRow" valign="top"><strong>Type:</strong> Sequence<br />Synchronous Call</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA765.htm">Dialogue and Argumentation Framework</a></td>
+					<td width="30%" class="TableRow" valign="top">moveCompleted(Move)</td>
+					<td width="40%" class="TableRow" valign="top"><strong>Type:</strong> Sequence<br />Synchronous Call</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA765.htm">Dialogue and Argumentation Framework</a></td>
+					<td width="30%" class="TableRow" valign="top">addParticipant(Pariticipant)</td>
+					<td width="40%" class="TableRow" valign="top"><strong>Type:</strong> Sequence<br />Synchronous Call</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA769.htm">Knowledge Base</a></td>
+					<td width="30%" class="TableRow" valign="top">store(ConversationHistory)</td>
+					<td width="40%" class="TableRow" valign="top"><strong>Type:</strong> Sequence<br />Synchronous Call</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA769.htm">Knowledge Base</a></td>
+					<td width="30%" class="TableRow" valign="top">store(CoachingHistory)</td>
+					<td width="40%" class="TableRow" valign="top"><strong>Type:</strong> Sequence<br />Synchronous Call</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA763.htm">Coaching Engine</a></td>
+					<td width="30%" class="TableRow" valign="top">requestNewTopic</td>
+					<td width="40%" class="TableRow" valign="top"><strong>Type:</strong> Sequence<br />Synchronous Call</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA769.htm">Knowledge Base</a></td>
+					<td width="30%" class="TableRow" valign="top">store(Variable)</td>
+					<td width="40%" class="TableRow" valign="top"><strong>Type:</strong> Sequence<br />Synchronous Call</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="MessagesFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Message</td>
+					<td width="40%" class="TableHeading">Details</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA764.htm">Coaching Strategy Filter</a></td>
+					<td width="30%" class="TableRow" valign="top">utterance(Utterance)</td>
+					<td width="40%" class="TableRow" valign="top"><strong>Type:</strong> Sequence<br />Synchronous Call</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA766.htm">Embodied Conversational Agent Player</a></td>
+					<td width="30%" class="TableRow" valign="top">feedback(Behaviour)</td>
+					<td width="40%" class="TableRow" valign="top"><strong>Type:</strong> Sequence<br />Synchronous Call</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA764.htm">Coaching Strategy Filter</a></td>
+					<td width="30%" class="TableRow" valign="top">sendMoves</td>
+					<td width="40%" class="TableRow" valign="top"><strong>Type:</strong> Sequence<br />Synchronous Call</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA766.htm">Embodied Conversational Agent Player</a></td>
+					<td width="30%" class="TableRow" valign="top">feedback(Behaviour)</td>
+					<td width="40%" class="TableRow" valign="top"><strong>Type:</strong> Sequence<br />Synchronous Call</td>
+				</tr>
+
+			</table>
+		</div>
 		<div class="ItemBody" id="CustomPropertiesTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
@@ -78,8 +215,8 @@ function initPage(src) {
 					<td width="70%" class="TableHeading">Value</td>
 				</tr>
 			<tr>
-				<td width="30%" class="TableRow">isReference:</td>
-				<td width="70%" class="TableRow">False</td>
+				<td width="30%" class="TableRow">isIndirectlyInstantiated:</td>
+				<td width="70%" class="TableRow">true</td>
 			</tr>
 
 
@@ -93,15 +230,111 @@ function initPage(src) {
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA765.htm">SKB_CouchInterface</a></td>
-					<td width="15%" class="TableRow" valign="top">ProvidedInterface</td>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA4/EA1/EA3/EA469.htm">CV.UC.22 Dialogue management</a></td>
+					<td width="15%" class="TableRow" valign="top">UseCase</td>
+					<td width="15%" class="TableRow" valign="top">Realisation</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA4/EA1/EA3/EA470.htm">CV.UC.23 Incoming dialogue move processing</a></td>
+					<td width="15%" class="TableRow" valign="top">UseCase</td>
+					<td width="15%" class="TableRow" valign="top">Realisation</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA4/EA1/EA3/EA473.htm">CV.UC.26 Behaviour generation</a></td>
+					<td width="15%" class="TableRow" valign="top">UseCase</td>
+					<td width="15%" class="TableRow" valign="top">Realisation</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA4/EA1/EA3/EA474.htm">CV.UC.27 Sensor input processing</a></td>
+					<td width="15%" class="TableRow" valign="top">UseCase</td>
+					<td width="15%" class="TableRow" valign="top">Realisation</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA4/EA2/EA482.htm">User Interface</a></td>
+					<td width="15%" class="TableRow" valign="top">Component</td>
 					<td width="15%" class="TableRow" valign="top">Information Flow</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA767.htm">Variable Store Synchronizer</a></td>
-					<td width="15%" class="TableRow" valign="top">Part</td>
-					<td width="15%" class="TableRow" valign="top">Information Flow</td>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA4/EA1/EA3/EA471.htm">CV.UC.24 Argument-based evaluation</a></td>
+					<td width="15%" class="TableRow" valign="top">UseCase</td>
+					<td width="15%" class="TableRow" valign="top">Realisation</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA4/EA1/EA3/EA472.htm">CV.UC.25 Dialogue move selection</a></td>
+					<td width="15%" class="TableRow" valign="top">UseCase</td>
+					<td width="15%" class="TableRow" valign="top">Realisation</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA4/EA1/EA3/EA475.htm">CV.UC.28 Initiate a dialogue</a></td>
+					<td width="15%" class="TableRow" valign="top">UseCase</td>
+					<td width="15%" class="TableRow" valign="top">Realisation</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA4/EA1/EA3/EA476.htm">CV.UC.29 Join a dialogue</a></td>
+					<td width="15%" class="TableRow" valign="top">UseCase</td>
+					<td width="15%" class="TableRow" valign="top">Realisation</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA4/EA1/EA3/EA477.htm">CV.UC.30 Determine response</a></td>
+					<td width="15%" class="TableRow" valign="top">UseCase</td>
+					<td width="15%" class="TableRow" valign="top">Realisation</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA4/EA1/EA3/EA452.htm">CV.UC.05 Save ‘knowledge’ when returned by the Intent Planner</a></td>
+					<td width="15%" class="TableRow" valign="top">UseCase</td>
+					<td width="15%" class="TableRow" valign="top">Realisation</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA4/EA1/EA3/EA458.htm">CV.UC.11 Know its interaction history</a></td>
+					<td width="15%" class="TableRow" valign="top">UseCase</td>
+					<td width="15%" class="TableRow" valign="top">Realisation</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA4/EA1/EA3/EA457.htm">CV.UC.10 Know who a coach is</a></td>
+					<td width="15%" class="TableRow" valign="top">UseCase</td>
+					<td width="15%" class="TableRow" valign="top">Realisation</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA4/EA1/EA3/EA455.htm">CV.UC.08 Provide relevant strategies to Flipper</a></td>
+					<td width="15%" class="TableRow" valign="top">UseCase</td>
+					<td width="15%" class="TableRow" valign="top">Realisation</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA4/EA1/EA3/EA454.htm">CV.UC.07 Provide relevant strategies to Flipper</a></td>
+					<td width="15%" class="TableRow" valign="top">UseCase</td>
+					<td width="15%" class="TableRow" valign="top">Realisation</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA4/EA801.htm">«interface» IntentPlannerInterface</a></td>
+					<td width="15%" class="TableRow" valign="top">Interface</td>
+					<td width="15%" class="TableRow" valign="top">Realisation</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA4/EA800.htm">«interface» IntentPlannerFeedbackInterface</a></td>
+					<td width="15%" class="TableRow" valign="top">Interface</td>
+					<td width="15%" class="TableRow" valign="top">Realisation</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA5/EA1/EA501.htm">WP5</a></td>
+					<td width="15%" class="TableRow" valign="top">Boundary</td>
+					<td width="15%" class="TableRow" valign="top">Realisation</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 
